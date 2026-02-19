@@ -45,3 +45,12 @@ A simple, responsive web application to manage student results, calculate grades
 
 -   **Name**: Cannot be empty.
 -   **Scores**: Must be numbers between 0 and 100.
+
+## License
+
+MIT License
+
+## Author
+
+-   **Ziad El Bakry**
+    

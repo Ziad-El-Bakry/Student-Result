@@ -1,0 +1,80 @@
+/* #exTwo{
+    color:rgb(49, 41, 124);
+}
+
+#testP1{
+    color:rgb(223, 174, 40);
+    border: 5px solid orange;
+} */
+
+
+body {
+
+    background-image: url('../img/box.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    mix-blend-mode: screen;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table tr td {
+    background-color: transparent !important;
+    /* Force transparent */
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.table thead th {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+    color: #fff;
+    border-bottom: 2px solid #4e73df;
+}
+
+/* Input Styles */
+.form-control {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    background-color: #fff;
+    border-color: #4e73df;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+/* Button Styles */
+.btn {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.btn-primary {
+    background-color: #4e73df;
+    border-color: #4e73df;
+}
+
+.btn-primary:hover {
+    background-color: #2e59d9;
+    border-color: #2653d4;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
+
+.btn-danger {
+    background-color: #e74a3b;
+    border-color: #e74a3b;
+}
+
+.btn-danger:hover {
+    background-color: #be2617;
+    border-color: #be2617;
+    transform: translateY(-2px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}
